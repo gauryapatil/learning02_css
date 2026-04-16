@@ -1,10 +1,22 @@
-h3{
-    color: rgb(27, 116, 193);
-    background-color: rgb(176, 19, 19);
-    margin: auto;
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 900;
+
 }
-h1{
-    color: rgb(193, 113, 27);
-    background-color: rgb(19, 176, 35);
-    margin: auto;
+li{
+    padding: 10px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+li:first-child{
+    background-color: antiquewhite;
+}
+li:last-child{
+    background-color: aliceblue;
+}
+li:nth-child(5){
+    background-color: aqua;
 }
